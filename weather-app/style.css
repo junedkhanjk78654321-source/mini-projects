@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(26, 33, 49);
+}
+
+.mainbox {
+    background-image: url("pexels-victor-pace-2704890-4257035.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.head .input{
+    position: relative;
+  
+}
+.head .input .search{
+    position:absolute;
+    top: 0px;
+    right: 26px;
+    background-color: rgb(237, 232, 232);
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.input input{
+        color: #fff;
+
+      padding: 5px 10px;
+border: 0px;
+border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.389);
+}
+.input .loc{
+    padding: 2 px;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.right img {
+    width: 100px;
+}
+
+.right {
+    display: flex;
+}
+.right p{
+    padding: 5px;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px ;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.262);
+}
+
+.day img {
+    width: 30px;
+
+}
+
+#result {
+    color: #fff;
+}
+
+.error {
+    color: red;
+}

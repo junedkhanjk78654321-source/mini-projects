@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainbox" id="mainbox">
+        <div class="head">
+            <div class="logo">
+                <h1>Weather</h1>
+                <p id="date">thursday, 31 august 2023 | 10:15 PM</p>
+            </div>
+            <div class="input">
+                <input id="cityInput" placeholder="Enter your city">
+                <button class="search" onclick="getWeather()">Search</button>
+                <button class="loc"><i class="fa-solid fa-location-crosshairs"></i></button>
+            </div>
+        </div>
+        <div id="result">
+        </div>
+        <div class="footer" id="forecast">
+            <p>Search a City name to get its weather details.</p>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/07f1aa8a15.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
