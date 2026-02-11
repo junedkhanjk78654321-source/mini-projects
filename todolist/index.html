@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="head">
+            <h1>Todo App</h1>
+        </div>
+        <div class="input">
+            <form id="myForm">
+            <input placeholder="Add your new todo">
+            <button type="submit" class="add" onclick="addFunc()"><i class="fa-solid fa-plus"></i></button>
+            </form>
+        </div>
+        <div class="data"></div>
+        <div class="footer">
+            <p>
+                You have <div class="num">0</div> pending tasks
+            </p>
+            <button id="clearAll">clear all</button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/07f1aa8a15.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
